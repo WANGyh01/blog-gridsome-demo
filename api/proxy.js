@@ -4,7 +4,7 @@ module.exports = (req, res) => {
   let target = ''
 
   // 处理代理目标地址
-  if (req.url.startsWith('/concat')) {
+  if (req.url.startsWith('/contacts')) {
     target = 'http://117.50.38.80:1337'
   } else if (req.url.startsWith('/blogs')) {
     target = 'http://117.50.38.80:1337'

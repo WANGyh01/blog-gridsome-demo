@@ -9,7 +9,7 @@
       "destination": "/api/proxy"
     },
     {
-      "source": "/concat",
+      "source": "/contacts",
       "destination": "/api/proxy"
     }
   ]
