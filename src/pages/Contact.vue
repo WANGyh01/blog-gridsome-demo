@@ -88,7 +88,7 @@
 		methods: {
 			async onSubmit () {
 				try {
-					await axios.post(this.GRIDSOME_API_URL + '/contacts', this.form)
+					await axios.post('/contacts', this.form)
 					alert('提交成功')
 				} catch (e) {
 					alert('出错了')
